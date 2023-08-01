@@ -131,6 +131,7 @@ address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Countr
 email = "nospam@example.com"
 subject = "New Submission!"
 formspree_form_id = "example_invalid"
+web3forms_access_key = "example_invalid"
 
 [params.social]
 twitter = ""
@@ -150,7 +151,3 @@ languageName = "English"
 [languages.de]
 weight = 10
 languageName = "Deutsch"
-
-[languages.es]
-weight = 10
-languageName = "Español"
