@@ -8,6 +8,7 @@
       <h2>{{ .title }}</h2>
       {{ partial "body_text.html" (dict "context" . "md" $md) }}
     </header>
+    <!-- A comment -->
     <form method="post" action="https://api.web3forms.com/submit">
       <div class="row gtr-uniform">
         <input type="hidden" name="access_key" value="{{ .web3forms_access_key }}">
